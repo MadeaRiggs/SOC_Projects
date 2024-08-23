@@ -28,7 +28,6 @@ This report details the response to an incident where an employee's system was c
 
 #### (ii) Wireshark
 - Let's filter for communication between IP address 192.168.248.200 and 192.168.248.100. ![](images/image-5.png) 
-![](images/image23.png)
 - From the output, after the TCP handshake, there is a GET request from 192.168.248.100 to 192.168.248.200 for a file called **aa**. 
 - Follow the TCP stream, it is seen that the file is a **JavaScript Heap Exploitation Library**
 ![](images/image-8.png)

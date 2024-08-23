@@ -3,7 +3,7 @@
 - The compromised machine is at 192.168.248.100
 - Upon using Zeek to filter the for this IP address, we notice that:
     - There is communication between 192.168.248.100:5353 and 224.0.0.251:5353 over UDP
-        - There is still communication between 192.168.248.100 and 224.0.0.251 whose Destination port is still 5353 but the Source ports vary with each connection[screenshot](image.png)
+        - There is still communication between 192.168.248.100 and 224.0.0.251 whose Destination port is still 5353 but the Source ports vary with each connection ![](image.png)
     - There is communication between 192.168.248.100 and 192.168.248.255 both on port 137 UDP
     - There is communication between 192.168.248.100:49807 and 224.0.0.252:5355 over UDP
     - There is communication between 192.168.248.100:56285 and 239.255.255.250:1900 over UDP

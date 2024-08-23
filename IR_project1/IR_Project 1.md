@@ -6,7 +6,7 @@ This report details the response to an incident where an employee's system was c
 ## Detection and Investigation
 - The compromised machine IP address is 192.168.248.100
 
-### Maemory and Traffic Analysis using:
+### Memory and Traffic Analysis using:
 #### (i) Zeek
 - Using Zeek command to filter the for this IP address in the Connections log
     *sudo zeek-cut < conn.log ts id.orig_h id.orig_p id.resp_h id.resp_p duration | grep 192.168.248.100*
